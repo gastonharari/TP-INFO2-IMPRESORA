@@ -27,7 +27,10 @@
 #define 	B		1,25
 #define 	C		1,22
 #define 	D		1,19
-
+#define 	E 		0,0
+#define 	F		0,0
+#define 	G		0,0
+#define 	H		0,0
 /***********************************************************************************************************************************
  *** TIPOS DE DATOS PRIVADOS AL MODULO
  **********************************************************************************************************************************/
@@ -43,8 +46,8 @@
 /***********************************************************************************************************************************
  *** VARIABLES GLOBALES PRIVADAS AL MODULO
  **********************************************************************************************************************************/
-uint8_t estadoX = 1;
-
+uint8_t e_mot[2] = {1,1};
+uint8_t cpaso[2] = {0,0};
 /***********************************************************************************************************************************
  *** PROTOTIPO DE FUNCIONES PRIVADAS AL MODULO
  **********************************************************************************************************************************/
@@ -63,48 +66,56 @@ void Inicializar_MPP ( void )
 	SetDIR ( B,SALIDA);
 	SetDIR ( C,SALIDA);
 	SetDIR ( D,SALIDA);
+	SetDIR ( E,SALIDA);
+	SetDIR ( F,SALIDA);
+	SetDIR ( G,SALIDA);
+	SetDIR ( H,SALIDA);
 }
 
 
 
-void motpp_off(void)
+void motpp_off( uint8_t motor )
 {
-	SetPIN( A, OFF); 		//Exp 6
-	SetPIN( B, OFF);		//Exp 7
-	SetPIN( C, OFF);		//Exp 8
-	SetPIN( D, OFF);		//Exp 9
+	if(!motor){
+		SetPIN( A, OFF); 		//Exp 6
+		SetPIN( B, OFF);		//Exp 7
+		SetPIN( C, OFF);		//Exp 8
+		SetPIN( D, OFF);		//Exp 9
+	}
+	else{
+		SetPIN( E, OFF); 		//Exp
+		SetPIN( F, OFF);		//Exp
+		SetPIN( G, OFF);		//Exp
+		SetPIN( H, OFF);		//Exp
+	}
 }
 
-void motpp_r(void) // Esta funcion hace que el motor de un paso en sentido de las agujas del reloj.
+void motpp_r( uint8_t motor ) // Esta funcion hace que el motor de un paso en sentido de las agujas del reloj.
 {
-	static unsigned char cpaso=0;
-
-	cpaso = (cpaso + 1) % NPASOS; // Ponemos el paso siguiente a efectuar
-    if (cpaso==0)
-    	cpaso=1;
-	switch(cpaso){
-	case 1:
+	cpaso[motor] = (cpaso[motor] + 1) % NPASOS; // Ponemos el paso siguiente a efectuar
+	switch(cpaso[motor]){
+	case 0:
 		SetPIN( A, ON);
 		SetPIN( B, OFF);
+		SetPIN( C, OFF);
+		SetPIN( D, OFF);
+		break;
+
+	case 1:
+		SetPIN( A, OFF);
+		SetPIN( B, ON);
 		SetPIN( C, OFF);
 		SetPIN( D, OFF);
 		break;
 
 	case 2:
 		SetPIN( A, OFF);
-		SetPIN( B, ON);
-		SetPIN( C, OFF);
-		SetPIN( D, OFF);
-		break;
-
-	case 3:
-		SetPIN( A, OFF);
 		SetPIN( B, OFF);
 		SetPIN( C, ON);
 		SetPIN( D, OFF);
 		break;
 
-	case 4:
+	case 3:
 		SetPIN( A, OFF);
 		SetPIN( B, OFF);
 		SetPIN( C, OFF);
@@ -113,15 +124,11 @@ void motpp_r(void) // Esta funcion hace que el motor de un paso en sentido de la
 	}
 }
 
-void motpp_cr(void) // Esta funcion hace que el motor de una vuelta en sentido contrario a las agujas del reloj.
+void motpp_cr( uint8_t motor ) // Esta funcion hace que el motor de una vuelta en sentido contrario a las agujas del reloj.
 {
-	static unsigned char cpaso=0;
-
-	cpaso = (cpaso+1) % NPASOS; // Ponemos el paso siguiente a efectuar (esta funcion resta 1 ciclicamente, 3-1=2 2-1=1 1-1=0 0-1=3
-	if (cpaso==0)
-	    	cpaso=1;
-	switch(cpaso){
-	case 1:
+	cpaso[motor] = (cpaso[motor] + 1) % NPASOS; // Ponemos el paso siguiente a efectuar (esta funcion resta 1 ciclicamente, 3-1=2 2-1=1 1-1=0 0-1=3
+	switch( cpaso[motor] ){
+	case 3:
 		SetPIN( A, ON);
 		SetPIN( B, OFF);
 		SetPIN( C, OFF);
@@ -135,14 +142,14 @@ void motpp_cr(void) // Esta funcion hace que el motor de una vuelta en sentido c
 		SetPIN( D, OFF);
 		break;
 
-	case 3:
+	case 1:
 		SetPIN( A, OFF);
 		SetPIN( B, ON);
 		SetPIN( C, ON);
 		SetPIN( D, OFF);
 		break;
 
-	case 4:
+	case 0:
 		SetPIN( A, OFF);
 		SetPIN( B, OFF);
 		SetPIN( C, ON);
@@ -151,32 +158,33 @@ void motpp_cr(void) // Esta funcion hace que el motor de una vuelta en sentido c
 	}
 }
 
-void girar(unsigned char s, unsigned int d) // La variable s indica si es en sentido R o CR, la variable t indica cuantos pasos se van a dar y la variable d indica el retraso (delay)
+void girar( uint8_t s, uint8_t d, uint8_t motor ) // La variable s indica si es en sentido R o CR, la variable t indica cuantos pasos se van a dar y la variable d indica el retraso (delay)
 {
-	if(estadoX){
-		if (s) motpp_r(); // Si el sentido es R se ejecuta la function en sentido de las agujas del reloj
-		else motpp_cr();// Si el sentido es CR se ejecuta la function en sentido contrario a las agujas del reloj
-		estadoX = 0;
-		retardo(d); // retraso entre paso y paso.
+	if( e_mot[motor] ){
+		if (s) motpp_r(motor); // Si el sentido es R se ejecuta la function en sentido de las agujas del reloj
+		else motpp_cr(motor);// Si el sentido es CR se ejecuta la function en sentido contrario a las agujas del reloj
+		retardo(d, motor); // retraso entre paso y paso.
 	}
 }
 
-void retardoX (uint8_t i) // Introduce un retraso
+void retardo (uint8_t i, uint8_t motor ) // Introduce un retraso
 {
-	TimerStart(MotorX, i, MIL, statX);
-}
-
-void retardoY (uint8_t i) // Introduce un retraso
-{
-	TimerStart(MotorY, i, MIL, statY);
+	if(!motor){
+		TimerStart(MotorX, i, MIL, statX);
+		e_mot[MotorX] = 0;
+	}
+	else{
+		e_mot[MotorY] = 0;
+		TimerStart(MotorY, i, MIL, statY);
+	}
 }
 
 void statX(void)
 {
-	estado[] = 1;
+	e_mot[MotorX] = 1;
 }
 
 void statY(void)
 {
-	estado[] = 1;
+	e_mot[MotorY] = 1;
 }

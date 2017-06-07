@@ -23,10 +23,12 @@
  *** DEFINES GLOBALES
  **********************************************************************************************************************************/
 
-#define NPASOS 5 // Npasos es igual a 4
+#define NPASOS 4 // Npasos es igual a 4
 #define R 1 // Definimos R como 1 para dar las vueltas en sentido del reloj
 #define CR 0 // CR es sentido contrario al reloj.
 
+#define 	MotorX 	0
+#define		MotorY	1
 
 /***********************************************************************************************************************************
  *** MACROS GLOBALES
@@ -45,11 +47,12 @@
  **********************************************************************************************************************************/
 
 void Inicializar_MPP ( void );
-void retardo (uint8_t i);
-void girar(unsigned char s, unsigned int d);
-void motpp_cr(void);
-void motpp_r(void);
-void motpp_off(void);
-void mpp(void);
+void retardo ( uint8_t i, uint8_t motor);
+void girar( uint8_t s, uint8_t d, uint8_t motor );
+void motpp_cr( uint8_t motor );
+void motpp_r( uint8_t motor );
+void motpp_off( uint8_t motor );
+void statX(void);
+void statY(void);
 
 #endif /* DR_MPP_H_ */

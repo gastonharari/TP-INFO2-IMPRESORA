@@ -37,15 +37,15 @@ void teststepper ( void ){
 	}
 	switch(c){
 		case 1:
-			girar(CR,2); //Sentido R 200 pasos 10 u.t.
+			girar( CR, 1, MotorX); //Sentido R 200 pasos 10 u.t.
 			a = 1;
 			break;
 		case 2:
-			girar(R,1); //Sentido R 200 pasos 10 u.t.
+			girar( R, 1, MotorX); //Sentido R 200 pasos 10 u.t.
 			a = 2;
 			break;
 		case 3:
-			motpp_off();
+			motpp_off(MotorX);
 			a = 0;
 			break;
 	}

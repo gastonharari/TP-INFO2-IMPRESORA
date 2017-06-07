@@ -5,29 +5,20 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Primitivas/PR_7seg.c \
-../Primitivas/PR_BT.c \
 ../Primitivas/PR_Teclado.c \
 ../Primitivas/PR_Timer.c \
-../Primitivas/PR_extras.c \
-../Primitivas/PR_parcial.c \
 ../Primitivas/PR_uart.c 
 
 OBJS += \
 ./Primitivas/PR_7seg.o \
-./Primitivas/PR_BT.o \
 ./Primitivas/PR_Teclado.o \
 ./Primitivas/PR_Timer.o \
-./Primitivas/PR_extras.o \
-./Primitivas/PR_parcial.o \
 ./Primitivas/PR_uart.o 
 
 C_DEPS += \
 ./Primitivas/PR_7seg.d \
-./Primitivas/PR_BT.d \
 ./Primitivas/PR_Teclado.d \
 ./Primitivas/PR_Timer.d \
-./Primitivas/PR_extras.d \
-./Primitivas/PR_parcial.d \
 ./Primitivas/PR_uart.d 
 
 

@@ -29,29 +29,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x38 ./Primitivas/PR_7seg.o
  .ARM.attributes
                 0x00000000       0x33 ./Primitivas/PR_7seg.o
- .group         0x00000000        0x8 ./Primitivas/PR_BT.o
- .group         0x00000000        0x8 ./Primitivas/PR_BT.o
- .group         0x00000000        0x8 ./Primitivas/PR_BT.o
- .text          0x00000000        0x0 ./Primitivas/PR_BT.o
- .data          0x00000000        0x0 ./Primitivas/PR_BT.o
- .bss           0x00000000        0x0 ./Primitivas/PR_BT.o
- .text.StatusBT
-                0x00000000       0x20 ./Primitivas/PR_BT.o
- .debug_info    0x00000000       0x8e ./Primitivas/PR_BT.o
- .debug_abbrev  0x00000000       0x63 ./Primitivas/PR_BT.o
- .debug_aranges
-                0x00000000       0x20 ./Primitivas/PR_BT.o
- .debug_ranges  0x00000000       0x10 ./Primitivas/PR_BT.o
- .debug_macro   0x00000000       0x37 ./Primitivas/PR_BT.o
- .debug_macro   0x00000000      0x886 ./Primitivas/PR_BT.o
- .debug_macro   0x00000000       0x28 ./Primitivas/PR_BT.o
- .debug_macro   0x00000000      0x13c ./Primitivas/PR_BT.o
- .debug_line    0x00000000       0xba ./Primitivas/PR_BT.o
- .debug_str     0x00000000     0x2984 ./Primitivas/PR_BT.o
- .comment       0x00000000       0x6f ./Primitivas/PR_BT.o
- .debug_frame   0x00000000       0x34 ./Primitivas/PR_BT.o
- .ARM.attributes
-                0x00000000       0x33 ./Primitivas/PR_BT.o
  .group         0x00000000        0x8 ./Primitivas/PR_Teclado.o
  .group         0x00000000        0x8 ./Primitivas/PR_Teclado.o
  .group         0x00000000        0x8 ./Primitivas/PR_Teclado.o
@@ -61,7 +38,6 @@ Discarded input sections
  .bss           0x00000000        0x0 ./Primitivas/PR_Teclado.o
  .debug_macro   0x00000000      0x886 ./Primitivas/PR_Teclado.o
  .debug_macro   0x00000000       0x28 ./Primitivas/PR_Teclado.o
- .group         0x00000000        0x8 ./Primitivas/PR_Timer.o
  .group         0x00000000        0x8 ./Primitivas/PR_Timer.o
  .group         0x00000000        0x8 ./Primitivas/PR_Timer.o
  .group         0x00000000        0x8 ./Primitivas/PR_Timer.o
@@ -96,122 +72,8 @@ Discarded input sections
                 0x00000000       0x2c ./Primitivas/PR_Timer.o
  .debug_macro   0x00000000      0x886 ./Primitivas/PR_Timer.o
  .debug_macro   0x00000000       0x28 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000000      0x13c ./Primitivas/PR_Timer.o
  .debug_macro   0x00000000       0x10 ./Primitivas/PR_Timer.o
  .debug_macro   0x00000000       0x28 ./Primitivas/PR_Timer.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_extras.o
- .text          0x00000000        0x0 ./Primitivas/PR_extras.o
- .data          0x00000000        0x0 ./Primitivas/PR_extras.o
- .bss           0x00000000        0x0 ./Primitivas/PR_extras.o
- .text.ADCvalue
-                0x00000000       0x6c ./Primitivas/PR_extras.o
- .debug_info    0x00000000       0xd6 ./Primitivas/PR_extras.o
- .debug_abbrev  0x00000000       0x97 ./Primitivas/PR_extras.o
- .debug_aranges
-                0x00000000       0x20 ./Primitivas/PR_extras.o
- .debug_ranges  0x00000000       0x10 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000      0x119 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000      0x886 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x28 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x34 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000      0x142 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x40 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000      0x118 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x64 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0xbe ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x94 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x10 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x10 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x28 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x6a ./Primitivas/PR_extras.o
- .debug_macro   0x00000000      0x247 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x22 ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x1c ./Primitivas/PR_extras.o
- .debug_macro   0x00000000       0x40 ./Primitivas/PR_extras.o
- .debug_line    0x00000000      0x277 ./Primitivas/PR_extras.o
- .debug_str     0x00000000     0x423a ./Primitivas/PR_extras.o
- .comment       0x00000000       0x6f ./Primitivas/PR_extras.o
- .debug_frame   0x00000000       0x38 ./Primitivas/PR_extras.o
- .ARM.attributes
-                0x00000000       0x33 ./Primitivas/PR_extras.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .group         0x00000000        0x8 ./Primitivas/PR_parcial.o
- .text          0x00000000        0x0 ./Primitivas/PR_parcial.o
- .data          0x00000000        0x0 ./Primitivas/PR_parcial.o
- .bss           0x00000000        0x0 ./Primitivas/PR_parcial.o
- .bss.act       0x00000000        0x1 ./Primitivas/PR_parcial.o
- .rodata        0x00000000        0x3 ./Primitivas/PR_parcial.o
- .text.Segmento
-                0x00000000       0x68 ./Primitivas/PR_parcial.o
- .text.estacion
-                0x00000000       0x88 ./Primitivas/PR_parcial.o
- .text.Temperatura
-                0x00000000       0xc4 ./Primitivas/PR_parcial.o
- .text.ParpadeaON
-                0x00000000       0x50 ./Primitivas/PR_parcial.o
- .bss.ant.3850  0x00000000        0x1 ./Primitivas/PR_parcial.o
- .bss.estado.3862
-                0x00000000        0x1 ./Primitivas/PR_parcial.o
- .debug_info    0x00000000      0x185 ./Primitivas/PR_parcial.o
- .debug_abbrev  0x00000000       0xff ./Primitivas/PR_parcial.o
- .debug_aranges
-                0x00000000       0x38 ./Primitivas/PR_parcial.o
- .debug_ranges  0x00000000       0x28 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000      0x113 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000      0x886 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x28 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x5e ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x28 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x10 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x22 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000      0x142 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x40 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000      0x118 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0xbe ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x3a ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x94 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x16 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x6a ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000      0x247 ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x1c ./Primitivas/PR_parcial.o
- .debug_macro   0x00000000       0x40 ./Primitivas/PR_parcial.o
- .debug_line    0x00000000      0x2ec ./Primitivas/PR_parcial.o
- .debug_str     0x00000000     0x4269 ./Primitivas/PR_parcial.o
- .comment       0x00000000       0x6f ./Primitivas/PR_parcial.o
- .debug_frame   0x00000000       0xa0 ./Primitivas/PR_parcial.o
- .ARM.attributes
-                0x00000000       0x33 ./Primitivas/PR_parcial.o
  .group         0x00000000        0x8 ./Primitivas/PR_uart.o
  .group         0x00000000        0x8 ./Primitivas/PR_uart.o
  .group         0x00000000        0x8 ./Primitivas/PR_uart.o
@@ -261,7 +123,6 @@ Discarded input sections
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_EINT.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_EINT.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_EINT.o
- .group         0x00000000        0x8 ./Driver_LPC1769/DR_EINT.o
  .text          0x00000000        0x0 ./Driver_LPC1769/DR_EINT.o
  .data          0x00000000        0x0 ./Driver_LPC1769/DR_EINT.o
  .bss           0x00000000        0x0 ./Driver_LPC1769/DR_EINT.o
@@ -280,8 +141,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Driver_LPC1769/DR_EINT.o
  .debug_macro   0x00000000       0x28 ./Driver_LPC1769/DR_EINT.o
  .debug_macro   0x00000000      0x247 ./Driver_LPC1769/DR_EINT.o
- .debug_macro   0x00000000       0x22 ./Driver_LPC1769/DR_EINT.o
- .debug_macro   0x00000000       0x1c ./Driver_LPC1769/DR_EINT.o
+ .debug_macro   0x00000000       0x28 ./Driver_LPC1769/DR_EINT.o
  .debug_macro   0x00000000       0x40 ./Driver_LPC1769/DR_EINT.o
  .debug_macro   0x00000000       0x6a ./Driver_LPC1769/DR_EINT.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_PLL.o
@@ -292,7 +152,6 @@ Discarded input sections
  .bss           0x00000000        0x0 ./Driver_LPC1769/DR_PLL.o
  .debug_macro   0x00000000      0x886 ./Driver_LPC1769/DR_PLL.o
  .debug_macro   0x00000000       0x28 ./Driver_LPC1769/DR_PLL.o
- .group         0x00000000        0x8 ./Driver_LPC1769/DR_SysTick.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_SysTick.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_SysTick.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_SysTick.o
@@ -321,10 +180,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xbe ./Driver_LPC1769/DR_SysTick.o
  .debug_macro   0x00000000       0x3a ./Driver_LPC1769/DR_SysTick.o
  .debug_macro   0x00000000       0x94 ./Driver_LPC1769/DR_SysTick.o
- .debug_macro   0x00000000       0x16 ./Driver_LPC1769/DR_SysTick.o
  .debug_macro   0x00000000      0x247 ./Driver_LPC1769/DR_SysTick.o
- .debug_macro   0x00000000       0x22 ./Driver_LPC1769/DR_SysTick.o
- .debug_macro   0x00000000       0x1c ./Driver_LPC1769/DR_SysTick.o
+ .debug_macro   0x00000000       0x28 ./Driver_LPC1769/DR_SysTick.o
  .debug_macro   0x00000000       0x40 ./Driver_LPC1769/DR_SysTick.o
  .debug_macro   0x00000000       0x6a ./Driver_LPC1769/DR_SysTick.o
  .group         0x00000000        0x8 ./Driver_LPC1769/DR_adc.o
@@ -341,7 +198,6 @@ Discarded input sections
                 0x00000000       0xc4 ./Driver_LPC1769/DR_adc.o
  .debug_macro   0x00000000      0x886 ./Driver_LPC1769/DR_adc.o
  .debug_macro   0x00000000       0x28 ./Driver_LPC1769/DR_adc.o
- .debug_macro   0x00000000       0x34 ./Driver_LPC1769/DR_adc.o
  .debug_macro   0x00000000       0x64 ./Driver_LPC1769/DR_adc.o
  .debug_macro   0x00000000       0xbe ./Driver_LPC1769/DR_adc.o
  .debug_macro   0x00000000      0x118 ./Driver_LPC1769/DR_adc.o
@@ -473,7 +329,6 @@ Discarded input sections
  .group         0x00000000        0x8 ./Driver_Infotronic/DR_MPP.o
  .group         0x00000000        0x8 ./Driver_Infotronic/DR_MPP.o
  .group         0x00000000        0x8 ./Driver_Infotronic/DR_MPP.o
- .group         0x00000000        0x8 ./Driver_Infotronic/DR_MPP.o
  .text          0x00000000        0x0 ./Driver_Infotronic/DR_MPP.o
  .data          0x00000000        0x0 ./Driver_Infotronic/DR_MPP.o
  .bss           0x00000000        0x0 ./Driver_Infotronic/DR_MPP.o
@@ -490,7 +345,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Driver_Infotronic/DR_MPP.o
  .debug_macro   0x00000000       0x28 ./Driver_Infotronic/DR_MPP.o
  .debug_macro   0x00000000      0x247 ./Driver_Infotronic/DR_MPP.o
- .debug_macro   0x00000000       0x22 ./Driver_Infotronic/DR_MPP.o
  .debug_macro   0x00000000       0x40 ./Driver_Infotronic/DR_MPP.o
  .debug_macro   0x00000000       0x6a ./Driver_Infotronic/DR_MPP.o
  .group         0x00000000        0x8 ./Driver_Infotronic/DR_Teclado.o
@@ -506,7 +360,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./Driver_Infotronic/DR_Teclado.o
  .debug_macro   0x00000000       0x28 ./Driver_Infotronic/DR_Teclado.o
  .debug_macro   0x00000000      0x142 ./Driver_Infotronic/DR_Teclado.o
- .group         0x00000000        0x8 ./Driver_Infotronic/Inicializacion.o
  .group         0x00000000        0x8 ./Driver_Infotronic/Inicializacion.o
  .group         0x00000000        0x8 ./Driver_Infotronic/Inicializacion.o
  .group         0x00000000        0x8 ./Driver_Infotronic/Inicializacion.o
@@ -540,10 +393,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./Driver_Infotronic/Inicializacion.o
  .debug_macro   0x00000000       0x6a ./Driver_Infotronic/Inicializacion.o
  .debug_macro   0x00000000      0x247 ./Driver_Infotronic/Inicializacion.o
- .debug_macro   0x00000000       0x22 ./Driver_Infotronic/Inicializacion.o
- .debug_macro   0x00000000       0x1c ./Driver_Infotronic/Inicializacion.o
+ .debug_macro   0x00000000       0x28 ./Driver_Infotronic/Inicializacion.o
  .debug_macro   0x00000000       0x40 ./Driver_Infotronic/Inicializacion.o
- .group         0x00000000        0x8 ./Aplicacion/TPO.o
  .group         0x00000000        0x8 ./Aplicacion/TPO.o
  .group         0x00000000        0x8 ./Aplicacion/TPO.o
  .group         0x00000000        0x8 ./Aplicacion/TPO.o
@@ -576,8 +427,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./Aplicacion/TPO.o
  .debug_macro   0x00000000       0x6a ./Aplicacion/TPO.o
  .debug_macro   0x00000000      0x247 ./Aplicacion/TPO.o
- .debug_macro   0x00000000       0x22 ./Aplicacion/TPO.o
- .debug_macro   0x00000000       0x1c ./Aplicacion/TPO.o
+ .debug_macro   0x00000000       0x28 ./Aplicacion/TPO.o
  .debug_macro   0x00000000       0x40 ./Aplicacion/TPO.o
  .group         0x00000000        0x8 ./Aplicacion/cr_startup_lpc175x_6x.o
  .text          0x00000000        0x0 ./Aplicacion/cr_startup_lpc175x_6x.o
@@ -605,11 +455,8 @@ RamAHB32         0x2007c000         0x00008000         xrw
 Linker script and memory map
 
 LOAD ./Primitivas/PR_7seg.o
-LOAD ./Primitivas/PR_BT.o
 LOAD ./Primitivas/PR_Teclado.o
 LOAD ./Primitivas/PR_Timer.o
-LOAD ./Primitivas/PR_extras.o
-LOAD ./Primitivas/PR_parcial.o
 LOAD ./Primitivas/PR_uart.o
 LOAD ./Driver_LPC1769/DR_EINT.o
 LOAD ./Driver_LPC1769/DR_PLL.o
@@ -644,7 +491,7 @@ END GROUP
                 0x20084000                __top_RamAHB32 = 0x20084000
                 0x20084000                __top_RAM2 = 0x20084000
 
-.text           0x00000000     0x10cc
+.text           0x00000000     0x1190
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -653,10 +500,10 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x10cc LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x1190 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x10cc LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x1190 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
@@ -772,74 +619,79 @@ END GROUP
  .text.Pop_TX   0x00000ae8       0x68 ./Driver_LPC1769/DR_uart.o
                 0x00000ae8                Pop_TX
  .text.Inicializar_MPP
-                0x00000b50       0x30 ./Driver_Infotronic/DR_MPP.o
+                0x00000b50       0x58 ./Driver_Infotronic/DR_MPP.o
                 0x00000b50                Inicializar_MPP
  .text.motpp_off
-                0x00000b80       0x30 ./Driver_Infotronic/DR_MPP.o
-                0x00000b80                motpp_off
- .text.motpp_r  0x00000bb0      0x108 ./Driver_Infotronic/DR_MPP.o
-                0x00000bb0                motpp_r
+                0x00000ba8       0x6c ./Driver_Infotronic/DR_MPP.o
+                0x00000ba8                motpp_off
+ .text.motpp_r  0x00000c14      0x104 ./Driver_Infotronic/DR_MPP.o
+                0x00000c14                motpp_r
  .text.motpp_cr
-                0x00000cb8      0x108 ./Driver_Infotronic/DR_MPP.o
-                0x00000cb8                motpp_cr
- .text.girar    0x00000dc0       0x40 ./Driver_Infotronic/DR_MPP.o
-                0x00000dc0                girar
- .text.retardo  0x00000e00       0x24 ./Driver_Infotronic/DR_MPP.o
-                0x00000e00                retardo
- .text.mpp      0x00000e24       0x18 ./Driver_Infotronic/DR_MPP.o
-                0x00000e24                mpp
+                0x00000d18      0x104 ./Driver_Infotronic/DR_MPP.o
+                0x00000d18                motpp_cr
+ .text.girar    0x00000e1c       0x4c ./Driver_Infotronic/DR_MPP.o
+                0x00000e1c                girar
+ .text.retardo  0x00000e68       0x50 ./Driver_Infotronic/DR_MPP.o
+                0x00000e68                retardo
+ .text.statX    0x00000eb8       0x18 ./Driver_Infotronic/DR_MPP.o
+                0x00000eb8                statX
+ .text.statY    0x00000ed0       0x18 ./Driver_Infotronic/DR_MPP.o
+                0x00000ed0                statY
  .text.InicializarTeclado
-                0x00000e3c       0x80 ./Driver_Infotronic/DR_Teclado.o
-                0x00000e3c                InicializarTeclado
+                0x00000ee8       0x80 ./Driver_Infotronic/DR_Teclado.o
+                0x00000ee8                InicializarTeclado
  .text.DriverTecladoSW
-                0x00000ebc       0x98 ./Driver_Infotronic/DR_Teclado.o
-                0x00000ebc                DriverTecladoSW
+                0x00000f68       0x98 ./Driver_Infotronic/DR_Teclado.o
+                0x00000f68                DriverTecladoSW
  .text.DriverTecladoHW
-                0x00000f54       0x78 ./Driver_Infotronic/DR_Teclado.o
-                0x00000f54                DriverTecladoHW
+                0x00001000       0x78 ./Driver_Infotronic/DR_Teclado.o
+                0x00001000                DriverTecladoHW
  .text.Inicializacion
-                0x00000fcc       0x68 ./Driver_Infotronic/Inicializacion.o
-                0x00000fcc                Inicializacion
+                0x00001078       0x68 ./Driver_Infotronic/Inicializacion.o
+                0x00001078                Inicializacion
  .text.RELAYS_OFF
-                0x00001034       0x28 ./Driver_Infotronic/Inicializacion.o
-                0x00001034                RELAYS_OFF
- .text.main     0x0000105c       0x6c ./Aplicacion/TPO.o
-                0x0000105c                main
+                0x000010e0       0x28 ./Driver_Infotronic/Inicializacion.o
+                0x000010e0                RELAYS_OFF
+ .text.main     0x00001108       0x14 ./Aplicacion/TPO.o
+                0x00001108                main
+ .text.teststepper
+                0x0000111c       0x70 ./Aplicacion/TPO.o
+                0x0000111c                teststepper
  .text.__weak_main
-                0x000010c8        0x4 c:/nxp/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
-                0x000010c8                __weak_main
-                0x000010c8                __main
+                0x0000118c        0x4 c:/nxp/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x0000118c                __weak_main
+                0x0000118c                __main
  *(.rodata .rodata.* .constdata .constdata.*)
-                0x000010cc                . = ALIGN (0x4)
+                0x00001190                . = ALIGN (0x4)
 
-.glue_7         0x000010cc        0x0
- .glue_7        0x000010cc        0x0 linker stubs
+.glue_7         0x00001190        0x0
+ .glue_7        0x00001190        0x0 linker stubs
 
-.glue_7t        0x000010cc        0x0
- .glue_7t       0x000010cc        0x0 linker stubs
+.glue_7t        0x00001190        0x0
+ .glue_7t       0x00001190        0x0 linker stubs
 
-.vfp11_veneer   0x000010cc        0x0
- .vfp11_veneer  0x000010cc        0x0 linker stubs
+.vfp11_veneer   0x00001190        0x0
+ .vfp11_veneer  0x00001190        0x0 linker stubs
 
-.v4_bx          0x000010cc        0x0
- .v4_bx         0x000010cc        0x0 linker stubs
+.v4_bx          0x00001190        0x0
+ .v4_bx         0x00001190        0x0 linker stubs
 
-.iplt           0x000010cc        0x0
- .iplt          0x000010cc        0x0 ./Primitivas/PR_7seg.o
+.iplt           0x00001190        0x0
+ .iplt          0x00001190        0x0 ./Primitivas/PR_7seg.o
 
-.rel.dyn        0x000010cc        0x0
- .rel.iplt      0x000010cc        0x0 ./Primitivas/PR_7seg.o
+.rel.dyn        0x00001190        0x0
+ .rel.iplt      0x00001190        0x0 ./Primitivas/PR_7seg.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000010cc                __exidx_start = .
+                0x00001190                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000010cc                __exidx_end = .
-                0x000010cc                _etext = .
+                0x00001190                __exidx_end = .
+                0x00001190                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x000010cc
+.data_RAM2      0x2007c000        0x0 load address 0x00001190
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -855,23 +707,22 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000        0x4 load address 0x000010cc
+.data           0x10000000        0x4 load address 0x00001190
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
  *(.ramfunc*)
  *(.data*)
- .data.estadoX  0x10000000        0x1 ./Driver_Infotronic/DR_MPP.o
-                0x10000000                estadoX
- .data.Tecla    0x10000001        0x1 ./Driver_Infotronic/DR_Teclado.o
-                0x10000001                Tecla
+ .data.e_mot    0x10000000        0x2 ./Driver_Infotronic/DR_MPP.o
+                0x10000000                e_mot
+ .data.Tecla    0x10000002        0x1 ./Driver_Infotronic/DR_Teclado.o
+                0x10000002                Tecla
  .data.CodigoAnterior.3723
-                0x10000002        0x1 ./Driver_Infotronic/DR_Teclado.o
+                0x10000003        0x1 ./Driver_Infotronic/DR_Teclado.o
                 0x10000004                . = ALIGN (0x4)
- *fill*         0x10000003        0x1 ff
                 0x10000004                _edata = .
 
-.igot.plt       0x10000004        0x0 load address 0x000010d0
+.igot.plt       0x10000004        0x0 load address 0x00001194
  .igot.plt      0x10000004        0x0 ./Primitivas/PR_7seg.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -916,14 +767,12 @@ END GROUP
  .bss.fEnviando
                 0x1000027b        0x1 ./Driver_LPC1769/DR_uart.o
                 0x1000027b                fEnviando
- .bss.cpaso.3850
-                0x1000027c        0x1 ./Driver_Infotronic/DR_MPP.o
- .bss.cpaso.3859
-                0x1000027d        0x1 ./Driver_Infotronic/DR_MPP.o
+ .bss.cpaso     0x1000027c        0x2 ./Driver_Infotronic/DR_MPP.o
+                0x1000027c                cpaso
  .bss.EstadosEstables.3724
                 0x1000027e        0x1 ./Driver_Infotronic/DR_Teclado.o
- .bss.c.3843    0x1000027f        0x1 ./Aplicacion/TPO.o
- .bss.a.3844    0x10000280        0x1 ./Aplicacion/TPO.o
+ .bss.c.3834    0x1000027f        0x1 ./Aplicacion/TPO.o
+ .bss.a.3835    0x10000280        0x1 ./Aplicacion/TPO.o
  *(COMMON)
                 0x10000284                . = ALIGN (0x4)
  *fill*         0x10000281        0x3 
@@ -945,7 +794,7 @@ END GROUP
                 0xefff74c6                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
 OUTPUT(TPO.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x10d9
+.debug_info     0x00000000     0x114c
  .debug_info    0x00000000       0x92 ./Primitivas/PR_Teclado.o
  .debug_info    0x00000092      0x2b8 ./Primitivas/PR_Timer.o
  .debug_info    0x0000034a       0x81 ./Driver_LPC1769/DR_EINT.o
@@ -956,14 +805,14 @@ OUTPUT(TPO.axf elf32-littlearm)
  .debug_info    0x0000082b       0xa6 ./Driver_LPC1769/DR_pinsel.o
  .debug_info    0x000008d1       0x92 ./Driver_LPC1769/DR_timer0123.o
  .debug_info    0x00000963      0x18f ./Driver_LPC1769/DR_uart.o
- .debug_info    0x00000af2      0x141 ./Driver_Infotronic/DR_MPP.o
- .debug_info    0x00000c33       0xef ./Driver_Infotronic/DR_Teclado.o
- .debug_info    0x00000d22       0x92 ./Driver_Infotronic/Inicializacion.o
- .debug_info    0x00000db4       0x93 ./Aplicacion/TPO.o
- .debug_info    0x00000e47      0x253 ./Aplicacion/cr_startup_lpc175x_6x.o
- .debug_info    0x0000109a       0x3f ./Aplicacion/crp.o
+ .debug_info    0x00000af2      0x1a3 ./Driver_Infotronic/DR_MPP.o
+ .debug_info    0x00000c95       0xef ./Driver_Infotronic/DR_Teclado.o
+ .debug_info    0x00000d84       0x92 ./Driver_Infotronic/Inicializacion.o
+ .debug_info    0x00000e16       0xa4 ./Aplicacion/TPO.o
+ .debug_info    0x00000eba      0x253 ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_info    0x0000110d       0x3f ./Aplicacion/crp.o
 
-.debug_abbrev   0x00000000      0x936
+.debug_abbrev   0x00000000      0x960
  .debug_abbrev  0x00000000       0x76 ./Primitivas/PR_Teclado.o
  .debug_abbrev  0x00000076       0xe0 ./Primitivas/PR_Timer.o
  .debug_abbrev  0x00000156       0x6a ./Driver_LPC1769/DR_EINT.o
@@ -974,14 +823,14 @@ OUTPUT(TPO.axf elf32-littlearm)
  .debug_abbrev  0x00000436       0x70 ./Driver_LPC1769/DR_pinsel.o
  .debug_abbrev  0x000004a6       0x7b ./Driver_LPC1769/DR_timer0123.o
  .debug_abbrev  0x00000521       0xda ./Driver_LPC1769/DR_uart.o
- .debug_abbrev  0x000005fb       0xb3 ./Driver_Infotronic/DR_MPP.o
- .debug_abbrev  0x000006ae       0xa8 ./Driver_Infotronic/DR_Teclado.o
- .debug_abbrev  0x00000756       0x52 ./Driver_Infotronic/Inicializacion.o
- .debug_abbrev  0x000007a8       0x63 ./Aplicacion/TPO.o
- .debug_abbrev  0x0000080b       0xf5 ./Aplicacion/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x00000900       0x36 ./Aplicacion/crp.o
+ .debug_abbrev  0x000005fb       0xc5 ./Driver_Infotronic/DR_MPP.o
+ .debug_abbrev  0x000006c0       0xa8 ./Driver_Infotronic/DR_Teclado.o
+ .debug_abbrev  0x00000768       0x52 ./Driver_Infotronic/Inicializacion.o
+ .debug_abbrev  0x000007ba       0x7b ./Aplicacion/TPO.o
+ .debug_abbrev  0x00000835       0xf5 ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000092a       0x36 ./Aplicacion/crp.o
 
-.debug_aranges  0x00000000      0x328
+.debug_aranges  0x00000000      0x338
  .debug_aranges
                 0x00000000       0x20 ./Primitivas/PR_Teclado.o
  .debug_aranges
@@ -1003,19 +852,19 @@ OUTPUT(TPO.axf elf32-littlearm)
  .debug_aranges
                 0x00000190       0x30 ./Driver_LPC1769/DR_uart.o
  .debug_aranges
-                0x000001c0       0x50 ./Driver_Infotronic/DR_MPP.o
+                0x000001c0       0x58 ./Driver_Infotronic/DR_MPP.o
  .debug_aranges
-                0x00000210       0x30 ./Driver_Infotronic/DR_Teclado.o
+                0x00000218       0x30 ./Driver_Infotronic/DR_Teclado.o
  .debug_aranges
-                0x00000240       0x30 ./Driver_Infotronic/Inicializacion.o
+                0x00000248       0x30 ./Driver_Infotronic/Inicializacion.o
  .debug_aranges
-                0x00000270       0x20 ./Aplicacion/TPO.o
+                0x00000278       0x28 ./Aplicacion/TPO.o
  .debug_aranges
-                0x00000290       0x80 ./Aplicacion/cr_startup_lpc175x_6x.o
+                0x000002a0       0x80 ./Aplicacion/cr_startup_lpc175x_6x.o
  .debug_aranges
-                0x00000310       0x18 ./Aplicacion/crp.o
+                0x00000320       0x18 ./Aplicacion/crp.o
 
-.debug_ranges   0x00000000      0x220
+.debug_ranges   0x00000000      0x230
  .debug_ranges  0x00000000       0x10 ./Primitivas/PR_Teclado.o
  .debug_ranges  0x00000010       0x48 ./Primitivas/PR_Timer.o
  .debug_ranges  0x00000058       0x18 ./Driver_LPC1769/DR_EINT.o
@@ -1026,104 +875,106 @@ OUTPUT(TPO.axf elf32-littlearm)
  .debug_ranges  0x000000d8       0x10 ./Driver_LPC1769/DR_pinsel.o
  .debug_ranges  0x000000e8       0x18 ./Driver_LPC1769/DR_timer0123.o
  .debug_ranges  0x00000100       0x20 ./Driver_LPC1769/DR_uart.o
- .debug_ranges  0x00000120       0x40 ./Driver_Infotronic/DR_MPP.o
- .debug_ranges  0x00000160       0x20 ./Driver_Infotronic/DR_Teclado.o
- .debug_ranges  0x00000180       0x20 ./Driver_Infotronic/Inicializacion.o
- .debug_ranges  0x000001a0       0x10 ./Aplicacion/TPO.o
- .debug_ranges  0x000001b0       0x70 ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000120       0x48 ./Driver_Infotronic/DR_MPP.o
+ .debug_ranges  0x00000168       0x20 ./Driver_Infotronic/DR_Teclado.o
+ .debug_ranges  0x00000188       0x20 ./Driver_Infotronic/Inicializacion.o
+ .debug_ranges  0x000001a8       0x18 ./Aplicacion/TPO.o
+ .debug_ranges  0x000001c0       0x70 ./Aplicacion/cr_startup_lpc175x_6x.o
 
-.debug_macro    0x00000000     0x17b1
+.debug_macro    0x00000000     0x1887
  .debug_macro   0x00000000       0x46 ./Primitivas/PR_Teclado.o
  .debug_macro   0x00000046       0x5e ./Primitivas/PR_Teclado.o
  .debug_macro   0x000000a4       0x28 ./Primitivas/PR_Teclado.o
- .debug_macro   0x000000cc      0x15c ./Primitivas/PR_Timer.o
- .debug_macro   0x00000228       0x40 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000268      0x118 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000380       0x64 ./Primitivas/PR_Timer.o
- .debug_macro   0x000003e4       0xbe ./Primitivas/PR_Timer.o
- .debug_macro   0x000004a2       0x3a ./Primitivas/PR_Timer.o
- .debug_macro   0x000004dc       0x94 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000570       0x10 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000580      0x247 ./Primitivas/PR_Timer.o
- .debug_macro   0x000007c7       0x22 ./Primitivas/PR_Timer.o
- .debug_macro   0x000007e9       0x1c ./Primitivas/PR_Timer.o
- .debug_macro   0x00000805       0x40 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000845       0x6a ./Primitivas/PR_Timer.o
- .debug_macro   0x000008af       0x10 ./Primitivas/PR_Timer.o
- .debug_macro   0x000008bf      0x12d ./Primitivas/PR_Timer.o
- .debug_macro   0x000009ec       0xa0 ./Primitivas/PR_Timer.o
- .debug_macro   0x00000a8c      0x12b ./Driver_LPC1769/DR_EINT.o
- .debug_macro   0x00000bb7       0x29 ./Driver_LPC1769/DR_PLL.o
- .debug_macro   0x00000be0      0x112 ./Driver_LPC1769/DR_PLL.o
- .debug_macro   0x00000cf2      0x131 ./Driver_LPC1769/DR_SysTick.o
- .debug_macro   0x00000e23       0x3a ./Driver_LPC1769/DR_SysTick.o
- .debug_macro   0x00000e5d       0x2e ./Driver_LPC1769/DR_SysTick.o
- .debug_macro   0x00000e8b      0x11f ./Driver_LPC1769/DR_adc.o
- .debug_macro   0x00000faa       0x29 ./Driver_LPC1769/DR_gpio.o
- .debug_macro   0x00000fd3       0x29 ./Driver_LPC1769/DR_pinsel.o
- .debug_macro   0x00000ffc       0x53 ./Driver_LPC1769/DR_timer0123.o
- .debug_macro   0x0000104f      0x241 ./Driver_LPC1769/DR_timer0123.o
- .debug_macro   0x00001290       0x53 ./Driver_LPC1769/DR_uart.o
- .debug_macro   0x000012e3      0x13b ./Driver_Infotronic/DR_MPP.o
- .debug_macro   0x0000141e       0x16 ./Driver_Infotronic/DR_MPP.o
- .debug_macro   0x00001434       0x4b ./Driver_Infotronic/DR_Teclado.o
- .debug_macro   0x0000147f      0x11c ./Driver_Infotronic/Inicializacion.o
- .debug_macro   0x0000159b      0x129 ./Aplicacion/TPO.o
- .debug_macro   0x000016c4       0x82 ./Aplicacion/TPO.o
- .debug_macro   0x00001746       0x1d ./Aplicacion/cr_startup_lpc175x_6x.o
- .debug_macro   0x00001763       0x1a ./Aplicacion/crp.o
- .debug_macro   0x0000177d       0x34 ./Aplicacion/crp.o
+ .debug_macro   0x000000cc      0x13b ./Primitivas/PR_Timer.o
+ .debug_macro   0x00000207      0x13c ./Primitivas/PR_Timer.o
+ .debug_macro   0x00000343       0x40 ./Primitivas/PR_Timer.o
+ .debug_macro   0x00000383      0x118 ./Primitivas/PR_Timer.o
+ .debug_macro   0x0000049b       0x64 ./Primitivas/PR_Timer.o
+ .debug_macro   0x000004ff       0xbe ./Primitivas/PR_Timer.o
+ .debug_macro   0x000005bd       0x3a ./Primitivas/PR_Timer.o
+ .debug_macro   0x000005f7       0x94 ./Primitivas/PR_Timer.o
+ .debug_macro   0x0000068b       0x10 ./Primitivas/PR_Timer.o
+ .debug_macro   0x0000069b      0x247 ./Primitivas/PR_Timer.o
+ .debug_macro   0x000008e2       0x28 ./Primitivas/PR_Timer.o
+ .debug_macro   0x0000090a       0x40 ./Primitivas/PR_Timer.o
+ .debug_macro   0x0000094a       0x6a ./Primitivas/PR_Timer.o
+ .debug_macro   0x000009b4       0x10 ./Primitivas/PR_Timer.o
+ .debug_macro   0x000009c4      0x12d ./Primitivas/PR_Timer.o
+ .debug_macro   0x00000af1       0xa0 ./Primitivas/PR_Timer.o
+ .debug_macro   0x00000b91      0x10a ./Driver_LPC1769/DR_EINT.o
+ .debug_macro   0x00000c9b       0x29 ./Driver_LPC1769/DR_PLL.o
+ .debug_macro   0x00000cc4      0x112 ./Driver_LPC1769/DR_PLL.o
+ .debug_macro   0x00000dd6      0x110 ./Driver_LPC1769/DR_SysTick.o
+ .debug_macro   0x00000ee6       0x3a ./Driver_LPC1769/DR_SysTick.o
+ .debug_macro   0x00000f20       0x16 ./Driver_LPC1769/DR_SysTick.o
+ .debug_macro   0x00000f36       0x2e ./Driver_LPC1769/DR_SysTick.o
+ .debug_macro   0x00000f64      0x11f ./Driver_LPC1769/DR_adc.o
+ .debug_macro   0x00001083       0x34 ./Driver_LPC1769/DR_adc.o
+ .debug_macro   0x000010b7       0x29 ./Driver_LPC1769/DR_gpio.o
+ .debug_macro   0x000010e0       0x29 ./Driver_LPC1769/DR_pinsel.o
+ .debug_macro   0x00001109       0x53 ./Driver_LPC1769/DR_timer0123.o
+ .debug_macro   0x0000115c      0x241 ./Driver_LPC1769/DR_timer0123.o
+ .debug_macro   0x0000139d       0x53 ./Driver_LPC1769/DR_uart.o
+ .debug_macro   0x000013f0      0x132 ./Driver_Infotronic/DR_MPP.o
+ .debug_macro   0x00001522       0x22 ./Driver_Infotronic/DR_MPP.o
+ .debug_macro   0x00001544       0x4b ./Driver_Infotronic/DR_Teclado.o
+ .debug_macro   0x0000158f       0xff ./Driver_Infotronic/Inicializacion.o
+ .debug_macro   0x0000168e      0x10c ./Aplicacion/TPO.o
+ .debug_macro   0x0000179a       0x82 ./Aplicacion/TPO.o
+ .debug_macro   0x0000181c       0x1d ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00001839       0x1a ./Aplicacion/crp.o
+ .debug_macro   0x00001853       0x34 ./Aplicacion/crp.o
 
-.debug_line     0x00000000     0x1945
+.debug_line     0x00000000     0x18cb
  .debug_line    0x00000000      0x126 ./Primitivas/PR_Teclado.o
- .debug_line    0x00000126      0x3ee ./Primitivas/PR_Timer.o
- .debug_line    0x00000514      0x290 ./Driver_LPC1769/DR_EINT.o
- .debug_line    0x000007a4       0xa7 ./Driver_LPC1769/DR_PLL.o
- .debug_line    0x0000084b      0x299 ./Driver_LPC1769/DR_SysTick.o
- .debug_line    0x00000ae4       0xc2 ./Driver_LPC1769/DR_adc.o
- .debug_line    0x00000ba6       0xb3 ./Driver_LPC1769/DR_gpio.o
- .debug_line    0x00000c59       0x71 ./Driver_LPC1769/DR_pinsel.o
- .debug_line    0x00000cca       0xcb ./Driver_LPC1769/DR_timer0123.o
- .debug_line    0x00000d95       0xd2 ./Driver_LPC1769/DR_uart.o
- .debug_line    0x00000e67      0x30d ./Driver_Infotronic/DR_MPP.o
- .debug_line    0x00001174      0x128 ./Driver_Infotronic/DR_Teclado.o
- .debug_line    0x0000129c      0x2a7 ./Driver_Infotronic/Inicializacion.o
- .debug_line    0x00001543      0x2ac ./Aplicacion/TPO.o
- .debug_line    0x000017ef       0xdb ./Aplicacion/cr_startup_lpc175x_6x.o
- .debug_line    0x000018ca       0x7b ./Aplicacion/crp.o
+ .debug_line    0x00000126      0x3cf ./Primitivas/PR_Timer.o
+ .debug_line    0x000004f5      0x271 ./Driver_LPC1769/DR_EINT.o
+ .debug_line    0x00000766       0xa7 ./Driver_LPC1769/DR_PLL.o
+ .debug_line    0x0000080d      0x27a ./Driver_LPC1769/DR_SysTick.o
+ .debug_line    0x00000a87       0xc2 ./Driver_LPC1769/DR_adc.o
+ .debug_line    0x00000b49       0xb3 ./Driver_LPC1769/DR_gpio.o
+ .debug_line    0x00000bfc       0x71 ./Driver_LPC1769/DR_pinsel.o
+ .debug_line    0x00000c6d       0xcb ./Driver_LPC1769/DR_timer0123.o
+ .debug_line    0x00000d38       0xd2 ./Driver_LPC1769/DR_uart.o
+ .debug_line    0x00000e0a      0x30a ./Driver_Infotronic/DR_MPP.o
+ .debug_line    0x00001114      0x128 ./Driver_Infotronic/DR_Teclado.o
+ .debug_line    0x0000123c      0x288 ./Driver_Infotronic/Inicializacion.o
+ .debug_line    0x000014c4      0x2b1 ./Aplicacion/TPO.o
+ .debug_line    0x00001775       0xdb ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_line    0x00001850       0x7b ./Aplicacion/crp.o
 
-.debug_str      0x00000000     0x5785
+.debug_str      0x00000000     0x5793
  .debug_str     0x00000000     0x26b4 ./Primitivas/PR_Teclado.o
                                0x26f1 (size before relaxing)
- .debug_str     0x000026b4     0x23a5 ./Primitivas/PR_Timer.o
-                               0x4a90 (size before relaxing)
- .debug_str     0x00004a59       0x50 ./Driver_LPC1769/DR_EINT.o
-                               0x4237 (size before relaxing)
- .debug_str     0x00004aa9       0x6b ./Driver_LPC1769/DR_PLL.o
+ .debug_str     0x000026b4     0x237f ./Primitivas/PR_Timer.o
+                               0x4a6a (size before relaxing)
+ .debug_str     0x00004a33       0x50 ./Driver_LPC1769/DR_EINT.o
+                               0x4211 (size before relaxing)
+ .debug_str     0x00004a83       0x6b ./Driver_LPC1769/DR_PLL.o
                                0x2aa7 (size before relaxing)
- .debug_str     0x00004b14       0xb5 ./Driver_LPC1769/DR_SysTick.o
-                               0x42e6 (size before relaxing)
- .debug_str     0x00004bc9      0x203 ./Driver_LPC1769/DR_adc.o
+ .debug_str     0x00004aee       0xb5 ./Driver_LPC1769/DR_SysTick.o
+                               0x42c0 (size before relaxing)
+ .debug_str     0x00004ba3      0x203 ./Driver_LPC1769/DR_adc.o
                                0x3715 (size before relaxing)
- .debug_str     0x00004dcc       0x5c ./Driver_LPC1769/DR_gpio.o
+ .debug_str     0x00004da6       0x5c ./Driver_LPC1769/DR_gpio.o
                                0x29b7 (size before relaxing)
- .debug_str     0x00004e28       0x34 ./Driver_LPC1769/DR_pinsel.o
+ .debug_str     0x00004e02       0x34 ./Driver_LPC1769/DR_pinsel.o
                                0x26af (size before relaxing)
- .debug_str     0x00004e5c       0x3e ./Driver_LPC1769/DR_timer0123.o
+ .debug_str     0x00004e36       0x3e ./Driver_LPC1769/DR_timer0123.o
                                0x3bfd (size before relaxing)
- .debug_str     0x00004e9a       0x87 ./Driver_LPC1769/DR_uart.o
+ .debug_str     0x00004e74       0x87 ./Driver_LPC1769/DR_uart.o
                                0x36a5 (size before relaxing)
- .debug_str     0x00004f21       0x81 ./Driver_Infotronic/DR_MPP.o
-                               0x4267 (size before relaxing)
- .debug_str     0x00004fa2       0x92 ./Driver_Infotronic/DR_Teclado.o
+ .debug_str     0x00004efb       0xa9 ./Driver_Infotronic/DR_MPP.o
+                               0x4272 (size before relaxing)
+ .debug_str     0x00004fa4       0x92 ./Driver_Infotronic/DR_Teclado.o
                                0x2b59 (size before relaxing)
- .debug_str     0x00005034       0x46 ./Driver_Infotronic/Inicializacion.o
-                               0x423c (size before relaxing)
- .debug_str     0x0000507a      0x462 ./Aplicacion/TPO.o
-                               0x4648 (size before relaxing)
- .debug_str     0x000054dc      0x1b9 ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_str     0x00005036       0x46 ./Driver_Infotronic/Inicializacion.o
+                               0x4216 (size before relaxing)
+ .debug_str     0x0000507c      0x46e ./Aplicacion/TPO.o
+                               0x462e (size before relaxing)
+ .debug_str     0x000054ea      0x1b9 ./Aplicacion/cr_startup_lpc175x_6x.o
                                0x26a5 (size before relaxing)
- .debug_str     0x00005695       0xf0 ./Aplicacion/crp.o
+ .debug_str     0x000056a3       0xf0 ./Aplicacion/crp.o
                                0x25bd (size before relaxing)
 
 .comment        0x00000000       0xdc
@@ -1184,7 +1035,7 @@ OUTPUT(TPO.axf elf32-littlearm)
  .ARM.attributes
                 0x00000330       0x33 c:/nxp/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
-.debug_frame    0x00000000      0x7a8
+.debug_frame    0x00000000      0x7fc
  .debug_frame   0x00000000       0x38 ./Primitivas/PR_Teclado.o
  .debug_frame   0x00000038      0x148 ./Primitivas/PR_Timer.o
  .debug_frame   0x00000180       0x4c ./Driver_LPC1769/DR_EINT.o
@@ -1195,8 +1046,8 @@ OUTPUT(TPO.axf elf32-littlearm)
  .debug_frame   0x00000344       0x38 ./Driver_LPC1769/DR_pinsel.o
  .debug_frame   0x0000037c       0x4c ./Driver_LPC1769/DR_timer0123.o
  .debug_frame   0x000003c8       0x84 ./Driver_LPC1769/DR_uart.o
- .debug_frame   0x0000044c       0xe8 ./Driver_Infotronic/DR_MPP.o
- .debug_frame   0x00000534       0x74 ./Driver_Infotronic/DR_Teclado.o
- .debug_frame   0x000005a8       0x64 ./Driver_Infotronic/Inicializacion.o
- .debug_frame   0x0000060c       0x2c ./Aplicacion/TPO.o
- .debug_frame   0x00000638      0x170 ./Aplicacion/cr_startup_lpc175x_6x.o
+ .debug_frame   0x0000044c      0x120 ./Driver_Infotronic/DR_MPP.o
+ .debug_frame   0x0000056c       0x74 ./Driver_Infotronic/DR_Teclado.o
+ .debug_frame   0x000005e0       0x64 ./Driver_Infotronic/Inicializacion.o
+ .debug_frame   0x00000644       0x48 ./Aplicacion/TPO.o
+ .debug_frame   0x0000068c      0x170 ./Aplicacion/cr_startup_lpc175x_6x.o

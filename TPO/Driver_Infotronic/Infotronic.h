@@ -23,9 +23,7 @@
 #include "PR_Timer.h"
 #include "DR_timer0123.h"
 #include "DR_adc.h"
-#include "PR_parcial.h"
 #include "PR_uart.h"
-#include "PR_extras.h"
 #include "DR_MPP.h"
 
 
